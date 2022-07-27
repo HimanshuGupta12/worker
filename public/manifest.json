@@ -1,0 +1,31 @@
+{
+  "name": "Worker App",
+  "short_name": "Worker",
+  "icons": [{
+    "src": "img/custom_icon72x72.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "img/logo/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "img/logo/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "img/logo/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }, {
+      "src": "img/logo/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "lang": "en-US",
+  "start_url": "/pwa/",
+  "scope" : "/pwa/",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white"
+}

@@ -1,0 +1,322 @@
+
+body{
+
+    font-family: 'Roboto', sans-serif !important;
+}
+
+form#hours_form {
+    padding: 1px 0px !important;
+}
+
+
+  .submisn_heading{
+
+    text-align: center;
+    color: #001B34;
+    font-size: 20px;
+
+  }
+
+.submisn_subheading {
+    text-align: center;
+    color: #667685;
+    font-size: 14px;
+}
+/*Next and Back Buttons */
+
+div#worker-hours .actions ul li:nth-child(1) a {
+    color: #2F45C5;
+    background-color: #fff;
+    border: 1px solid #F2F3F4;
+}
+div#worker-hours .actions ul li:nth-child(2) a {
+    background-color: #2697FF;
+    padding-right: 32px;
+}
+
+div#worker-hours .actions ul li:nth-child(3) a {
+    background-color: #EB1051;
+    padding-right: 160px;
+}
+
+div#worker-hours .actions ul li a {
+    font-size: 18px;
+}
+
+.hours_sbmsn_steps .actions {
+    margin-bottom: 44px;
+}
+
+
+
+/*Next and Back Buttons END */
+
+
+.step_heading_wpr {
+    margin-top: 3px;
+    margin-bottom: 9px;
+}
+
+/*current and active and done steps css */
+
+
+.hours_sbmsn_steps .steps.clearfix ul li.done span.number {
+    background-color: #2F45C5 !important;
+    color: #fff !important;
+}
+/*Current one */
+.hours_sbmsn_steps .steps.clearfix ul li.current span.number {
+    background-color: #efefef!important;
+    border-color: #efefef!important;
+    color: #a0a0a0 !important;
+}
+
+
+/*Not filled yet */
+.hours_sbmsn_steps .steps.clearfix ul li.disabled span.number {
+    background: #efefef !important;
+    border-color: #efefef !important;
+    color: #efefef !important;
+}
+
+
+
+
+  .app_label {
+        color: #001B34;
+        font-size: 14px;
+        font-weight: 600;
+        width: 100%;
+    }
+
+    .line_down {
+        display: block;
+        color: #667685;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .form-check.mb-3.project_listing {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #F2F3F4;
+    }
+    .cstm_arrow{
+        position: relative;
+    }
+    a.delete-hour i.bx.bx-trash-alt.text-white {
+    font-size: 16px !important;
+}
+    .float-end.cstm_arrow i {
+        position: absolute;
+        right: 0;
+        top: 12px;
+        color: #667685;
+        font-size: 21px;
+    }
+    .hours_datepicker {
+        text-align: center;
+    }
+
+    .hours_datepicker th.datepicker-switch {
+        color: #001B34;
+        font-size: 16px;
+    }
+    .hours_datepicker .datepicker.datepicker-inline {
+        padding: 0px;
+    }
+    .hours_datepicker table.table-condensed {
+        background-color: #fff;
+    }
+    .hours_datepicker table thead tr:nth-child(2) {
+        background-color: #f8f8fb;
+    }
+    .hours_datepicker .table-condensed>tbody>tr>td, .table-condensed>thead>tr>th {
+        padding: 11px !important;
+    }
+    .hours_datepicker html .datepicker table tr td .active.disabled, .datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active, .datepicker table tr td.active, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active:hover, .datepicker table tr td.selected, .datepicker table tr td.selected.disabled, .datepicker table tr td.selected.disabled:hover, .datepicker table tr td.selected:hover, .datepicker table tr td.today, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover, .datepicker table tr td.today:hover{
+        background-color:#2F45C5 !important;
+        border-radius: 8px !important;
+    }
+
+    .hour_picupload{
+        border: none;
+    }
+    .borderless td, .borderless th {
+        border: none;
+    }
+    .hours_sumry_bg{
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    .primary_hdg{
+        color: #001B34;
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .secondary_hdg{
+        color: #667685;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .app_last_btns{
+        width: 100%;
+    }
+
+    .hour_success_icon{
+
+        font-size: 152px;
+    }
+
+    .hours_sbmsn_steps .steps .number{
+
+    width: 25px !important;
+    height: 25px !important;
+    line-height: 20px !important;
+    font-size: 12px !important;
+    }
+
+    .hours_sbmsn_steps .steps ul {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .hours_sbmsn_steps .steps>ul>li {
+        width: 16%;
+        display: inline-block;
+    }
+
+    .hours_sbmsn_steps .steps>ul>li a {
+        background-color: transparent !important;
+    }
+
+    .hours_sbmsn_steps .steps .current a .number, .hours_sbmsn_steps .steps .current a:active .number, .hours_sbmsn_steps .steps .current a:hover .number {
+        background-color: #2F45C5;
+        color: #fff;
+        border-color: #2F45C5;
+    }
+
+    .hours_sbmsn_steps .steps .number{
+        border-color: #2F45C5 !important;
+    }
+    label.app_field_label {
+        color: #001B34;
+        font-size: 17px;
+    }
+    .form-check.mb-3.project_listing input {
+        visibility: hidden;
+    }
+    .hours_submisn input, .hours_submisn textarea {
+        background-color: #fff !important;
+        border: 1px solid #F2F3F4;
+        border-radius: 5px;
+    }
+    #upload_flz {
+        background-color: #fff !important;
+        border: 1px dashed #ced6df;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    h1.success_head {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 54px;
+    }
+
+    /*alert*/
+
+    .alert-danger {
+    color: #E92727 !important;
+    background-color: #FCE8EA !important;
+    border-color: #FCE8EA!important ;
+    font-weight: 500 !important;
+    }
+    .alert.alert-danger.alert-dismissible.fade.show i.bx.bx-error-circle {
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    }
+
+    .project_listing.alrt_exists {
+    background-color: #FF3B4F !important;
+    padding: 15px 15px !important;
+    border-radius: 5px !important;
+    border: 1px solid #F2F3F4 !important;
+    }
+   .project_listing.alrt_exists label.form-check-label.app_label {
+        color: #fff;
+    }
+   .project_listing.alrt_exists .cstm_bdge {
+        background-color: #fff !important;
+        color: #001B34 !important;
+    }
+    .project_listing.alrt_exists .line_down {
+        color: #fff !important;
+    }
+    .project_listing.alrt_exists .delete-hour {
+    color: #fff;
+}
+
+    .alrt_exists .prj_name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    }
+
+    .alrt_exists .prj_time.date_time {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+    }
+
+    table > tbody > tr > td.day.disabled {
+        color: #adb5bd;
+        opacity: .6;
+    }
+    .bx.bx-error-circle {
+         margin-right: 0.25rem;
+    }
+    .bx.bx-trash {
+        font-size: 24px;
+        margin-top: 1rem;
+    }
+
+    /*Buttons*/ 
+
+    .app_btn_blue{
+        background-color: #2F45C5;
+        border-color: #2F45C5;
+        color: #fff;
+    }
+
+    .app_btn_ltblue{
+
+          background-color: #2697FF;
+        border-color: #2697FF;
+        color: #fff;
+        
+    }
+
+    .app_btn_ltblue:hover{
+        color: #fff !important;
+    }
+
+@media only screen and (max-width: 767px){
+
+.wizard>.actions>ul {
+   display: inline-block;
+    width: 100%;
+}
+
+
+div#worker-hours .actions ul li:nth-child(1){
+
+display: inline-block;
+}
+div#worker-hours .actions ul li:nth-child(2){
+
+display: inline-block;
+}
+
+}

@@ -1,0 +1,95 @@
+.app_header{
+
+	background: #E9F5FF;
+	border-radius: 15px;
+}
+
+
+.app_header_subheading{
+
+	color: #8B9DAD;
+	font-weight: 600;
+    font-size: 19px;
+}
+
+.app_header_heading {
+    color: #001B34;
+    font-weight: 700;
+    font-size: 21px;
+}
+.app_header_text{
+
+	color: #001B34;
+}
+
+img.app-subserv-img {
+    width: 75px;
+}
+
+.app-box{
+	text-align: center;
+}
+
+
+.home-app-icon {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 14px 0px #0000001f;
+}
+img.app-subserv-img {
+    width: 60px;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 5px;
+    /* box-shadow: 0px 4px 14px 0px #0000001f; */
+}
+
+.daslink_font{
+    font-size: 20px;
+}
+
+.apphot_links{
+    font-size: 17px !important;
+}
+
+/*@media (min-width: 1281px) {
+  
+    .app-box{
+        width: 50vh;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+}*/
+
+/*@media only screen and (max-width: 768px){
+	.app-box{
+
+		width: 21vh;
+        height: 21vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: table-cell;
+        vertical-align: middle;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .app-box {
+        text-align: center;
+        width: 28vh;
+        height: 28vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+      
+}*/

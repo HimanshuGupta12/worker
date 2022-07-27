@@ -1,0 +1,44 @@
+
+body{
+
+    font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+    background-color: #f7faff;
+}
+
+/*app page heading*/ 
+
+.row.page_headingapp {
+    background-color: #fff;
+    padding: 19px 13px;
+    margin-bottom: 17px;
+    margin-top: 3px;
+   text-align: center;
+}
+
+/*app page heading end*/ 
+
+
+.page_heading{
+
+    text-align: center;
+    color: #001B34;
+    font-size: 20px;
+}
+
+.cstm_bdge {
+    float: left;
+    background-color: #DAEAFF;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 42px;
+    width: 42px;
+}
+.apphot_links{
+    font-size: 17px !important;
+}

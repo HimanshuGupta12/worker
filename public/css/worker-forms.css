@@ -1,0 +1,93 @@
+    .btn-info-show {
+    background-color: #2697ff;
+    color: #fff;
+}
+.btn-info-show:hover {
+    background-color: #2284de;
+    color: #fff;
+}
+
+    .card {
+    border-radius: 15px !important;
+    border: 1px solid #F2F3F4;
+}
+    .sub_head_title {
+        font-size: 11px;
+        color: #667685;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .custom_form_label {
+        margin-bottom: 6px;
+        color: #667685;
+        font-size: 13px;
+        display: block;
+    }
+    .w-card_title {
+        font-size: 17px;
+        color: #001B34;
+        line-height: 25.4px;
+        margin-bottom: 8px;
+    }
+    .arrange_checkbox {
+        margin-left: 0;
+    }
+    .arrange_checkbox label{
+        padding: 0;
+    }
+    .mb-3.row.arrange_checkbox>div {
+        border: 1px solid #F2F3F4;
+        vertical-align: middle;
+        padding: 4px 25px;
+        margin: 6.35px;
+        border-radius: 3px;
+        padding:7px 30px;
+    }
+    .arrange_checkbox .form-check-label {
+        color: #667685;
+        font-weight: 400;
+        font-size: 13px;
+        width: 100%;
+    }
+    .managerside_form .form-check-input:checked {
+        background-color: #2F45C5;
+        border-color: #2F45C5;
+    }
+
+    form.managerside_form input, form.managerside_form textarea {
+        background-color: #F8F8F8;
+        border-color: #F8F8F8;
+        border-radius: 5px;
+        border: 1px solid #F2F3F4;
+    }
+
+    form.managerside_form input::placeholder, form.managerside_form textarea::placeholder {
+        color: #667685;
+    }
+
+    .managerside_form .select2-selection {
+        background-color: #F9F9F9 !important;
+        border-color: #F9F9F9;
+    }
+
+    .managerside_form select {
+        background-color: #F9F9F9;
+        border-color: #F9F9F9;
+    }
+    /*button look like simple link */
+
+    .link_btn{
+
+        background-color: transparent;
+        border: none;
+        color: #2f45c5;
+        text-decoration: underline;
+        padding: 0;
+        line-height: 47px;
+
+    }
+    .workerss img
+    {
+        margin-bottom: 5px;
+        width: 16px
+    }
